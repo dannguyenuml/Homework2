@@ -1,0 +1,131 @@
+
+/* This assignment required me to edit the css file to make it look like the assignment needed*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-image: url("ptrbackground.jpg");
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* This made the ptrbackground.jpg the background image of the whole page . */
+h1{
+	background-image:url("sunset.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	color: white;
+	padding: 10px;
+}
+/* This creates the banner with the right background image. I had it have
+    no repeat and make it cover so it would fit the whole webpage. The positon is right
+	to make the image part of the header on the right and the color is white for the text
+*/
+.resort{
+	color:rgb(61, 91, 146);
+	font-weight: bold;
+
+}
+/* This made the color blue and made the font bold */
+#wrapper{
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 600px;
+	background-color: #70bbe0;
+}
+/* this made the wrapper go in the middle with a width of 80%. It also made the minimum
+	width 600px as required in the assignment. I also changed the background color so
+	the vertical navigation bar would look like it went down to the bottom of the webpage
+*/
+
+#content{
+	background-color: white;
+	margin-left: 175px;
+	padding: 1px 25px 25px 25px;
+}
+/* changed the background color to white and made the margin go over the vertical nav bar
+
+*/
+
+ul{
+	list-style-image: url("marker.gif");
+	list-style-position: inside;
+}
+/*
+	this made all the bullet points have the specific marker
+*/
+nav {
+	font-weight: bold;
+	background-color: #70bbe0;
+	float: left;
+	width: 150px;
+	padding: 20px;
+	padding: 20px 5px 5px 20px;
+}
+/* this created the vertical navigation bar and had it a fixed width of 150px. 
+	It also has the correct padding to make it look right. 
+*/
+nav a{
+	text-decoration: none;
+}
+/* This got rid of the underlines on the links*/
+nav ul {
+	font-size: 1.3em;
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+	width: auto;
+	list-style-image: none;
+	list-style-position: none;
+}
+/* This made the nav bar not have the gifs that was in the ul method. */
+nav a:link {
+	color: rgb(17, 17, 72);
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	color:white;
+}
+
+h2 {
+	color: #3399CC;
+}
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+#content img {
+	float: left;
+	padding-right: 20px;
+}
+/* This made the image in cotent float left and have a right padding of 
+	20px, to make it loook right
+*/
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: left;
+	background-color: white;
+	margin-left: 175px;
+	font-style: italic;
+	font-size: 70%;
+	padding: 20px;
+}
+/* this made the footer look like it should as specified in the assignment. 
+    It also has a margin left of 175px to go over the vertical nav bar
+*/
+
